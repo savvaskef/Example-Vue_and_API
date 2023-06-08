@@ -1,4 +1,4 @@
-# vue-dotnet-example
+#Vue and .Net Api and Data stored in memory
 Example Project on how to develop and Build Vue App with DOTNET Web API
 <br>
 To run the Project on the backend(API) you need to navigate to the direcory of the cloned Project and hit:<br>
