@@ -1,18 +1,22 @@
 # vue-dotnet-example
 Example Project on how to develop and Build Vue App with DOTNET Web API
-
-To run the Project on the backen(API)d you need to navigate to the direcory of the cloned Project and hit
-dotnet 
-from command Line or PowerShell.The command runs the .csproj you need
-
-Then for the client side you need to type the following commands
-cd clientapp 
-  npm install 
-  npm run serve 
-  ...to transfer all the environment you need fot the client side to run on a browser
-  You will get the address you need to witness the client-server tinyapp
-
-For my case, specifically i had to also set a parameter.Namely
-set  NODE_OPTIONS=--openssl-legacy-provider npm start
+<br>
+To run the Project on the backend(API) you need to navigate to the direcory of the cloned Project and hit:<br>
+dotnet <br>
+from command Line or PowerShell.The command runs the .csproj you need<br>
+<hr>
+Then for the client side you need to type the following commands:<br>
+cd clientapp <br>
+  npm install <br>
+  npm run serve <br>
+  ...to transfer all the environment you need fot the client side to run on a browser<br>
+  You will get the address you need to witness the tiny UserCount app.
+  The users are stored and retrieved from memory.<btr>But, still, it counts as a
+  server-client app
+<hr>
+  
+For my case, specifically i had to also set a parameter.Namely:<br>
+set  NODE_OPTIONS=--openssl-legacy-provider <br>
+berfore npm start<br>
 I have a hunch that this lowers security however.It would be best to 
-set and remove the parameter after installing and using the client respectively.
+'set' and 'unset' the parameter after installing and using the client respectively.
